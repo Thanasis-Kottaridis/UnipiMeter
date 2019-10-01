@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="General">
+    <EditTextPreference
+        android:defaultValue="50"
+        android:key="SpeedLimit_Settings"
+        android:summary="Set the Speed Limit in km/h"
+        android:title="Speed Limit" />
+        <EditTextPreference
+            android:defaultValue="100"
+            android:key="DistanceRange_Settings"
+            android:summary="Set the  Distance Range in meters"
+            android:title="Distance Range" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notifications">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="VoiceAlert_Settings"
+        android:title="Voice Alert"
+        android:summary="Voice message on notification"
+        />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

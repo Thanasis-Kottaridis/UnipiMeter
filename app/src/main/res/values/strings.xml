@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UnipiMeter</string>
+    <string name="pois_activity_name">Points Of Interest</string>
+    <string name="location_history_activity_name">Location History</string>
+    <string name="Speed_history_activity_name">Speed History</string>
+    <string name="statistics_activity_name">Statistics</string>
+    <string name="settings_activity_name">Settings</string>
+    <string name="noAccessFineLocationPermission">Location permission required to start this application</string>
+    <string-array name="POIsCategories">
+        <item>Home</item>
+        <item>Shop</item>
+        <item>Work</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="statistics_date_array">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>This Week</item>
+        <item>This Month</item>
+        <item>This Year</item>
+        <item>LifeTime</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/POIs"
+        android:orderInCategory="100"
+        android:title="Points Of Interest"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/History"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/SpeedHistory"
+                android:orderInCategory="100"
+                android:title="Speed History"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/LocationHistory"
+                android:orderInCategory="100"
+                android:title="Location History"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+    android:id="@+id/Statistics"
+    android:orderInCategory="100"
+    android:title="Statistics"
+    app:showAsAction="never" />
+</menu>
